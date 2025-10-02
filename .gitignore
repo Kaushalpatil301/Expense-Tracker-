@@ -1,0 +1,15 @@
+# Ignore database files
+Server/data/*.mv.db
+Server/data/*.trace.db
+
+# Ignore build output (Maven / Spring Boot)
+target/
+
+# Ignore logs
+*.log
+
+# Node.js dependencies
+FrontEnd/node_modules/
+
+# Environment files (if any)
+*.env
