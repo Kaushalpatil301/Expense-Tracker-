@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { X, Calendar } from 'lucide-react'
 
-const CATEGORIES = ['Food', 'Utilities', 'Entertainment', 'Transportation', 'Health', 'Shopping', 'Other']
+const CATEGORIES = ['Food', 'Utilities', 'Entertainment', 'Transportation', 'Health', 'Shopping', 'Other Categories']
 
 function formatDate(dateStr) {
   if (!dateStr) return ''
