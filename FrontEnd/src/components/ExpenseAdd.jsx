@@ -32,7 +32,7 @@ export default function ExpenseAdd({ open, setOpen, onSubmit, expense }) {
         
         <form onSubmit={(e) => { e.preventDefault(); onSubmit({ ...form, amount: parseFloat(form.amount), ...(expense && { id: expense.id }) }) }} className="space-y-3">
           <div>
-            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Description</label>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Add Description</label>
             <input className="w-full px-3 py-2 text-sm border dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white" placeholder="e.g., Grocery" value={form.description} onChange={e => setForm({ ...form, description: e.target.value })} required />
           </div>
           
