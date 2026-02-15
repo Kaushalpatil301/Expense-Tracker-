@@ -64,7 +64,7 @@ export default function Insights() {
         </div>
 
         <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4 shadow-sm">
-          <h3 className="font-semibold text-gray-900 dark:text-white mb-3">Monthly Trend</h3>
+          <h3 className="font-semibold text-gray-900 dark:text-white mb-3">Monthly Trends</h3>
           <ReactECharts option={{
             tooltip: { trigger: 'axis', backgroundColor: bg, textStyle: { color: txt } },
             xAxis: { type: 'category', data: lineData.x, axisLabel: { color: txt, fontSize: 10, rotate: 15 } },
